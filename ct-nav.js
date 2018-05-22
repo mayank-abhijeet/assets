@@ -12,6 +12,7 @@ var ham = document.getElementById("ham");
 var heading = document.getElementById("heading");
 var heading_mobile = document.getElementById("heading-mobile");
 var home=document.querySelector(".home");
+var content=document.querySelector(".content");
 var for_you_overlay=document.getElementById("for_you_overlay");
 
 var sticky = navigation.offsetTop;
@@ -33,6 +34,13 @@ home.addEventListener("click",function(){
 for_you_overlay.classList.toggle("hidden");
 });
 
+if(navigation.classList.contains("sticky")){
+    content.classList.add("padding-for-content");
+}
+else{
+    content.classList.remove("padding-for-content");
+    
+}
 
 
 document.addEventListener("DOMContentLoaded", function (event) {
