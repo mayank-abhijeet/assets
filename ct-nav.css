@@ -8,7 +8,6 @@ html.ct-nav{
 }
 
 body.ct-nav{
-    /* position: absolute; */
     margin-top: 10px;
     margin-top: 10px;    
     margin-left: 0;
@@ -37,7 +36,7 @@ li.ct-nav{
     
 }
 
-.ct-nav li a img{
+li a img.ct-nav{
     width: 50px;
     height: 50px;
     /* padding-left: 50px; */
@@ -57,7 +56,7 @@ li.ct-nav{
 
 #navigation.ct-nav{
   overflow: hidden;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 
@@ -104,12 +103,11 @@ li.ct-nav{
 }
 
 
-#ham.ct-nav{
-    /* background-color: black; */
+.ham.ct-nav{
     position: relative;
     cursor: pointer;
     width: 40px;
-    margin-top: -7px;
+    margin-top: -6px;
     margin-left: 20px;
     z-index: 1;
     float: left;
@@ -126,7 +124,6 @@ li.ct-nav{
     font-size: 18px;
 }
 #heading-mobile.ct-nav{
-    /* margin-right: 30px */
     width: 50%;
     margin: 0 auto;
 }
@@ -176,7 +173,6 @@ nav ul li p.ct-nav{
     }
 
     #heading-mobile.ct-nav{
-        /* margin-right: 30px */
         width: 100%;
         margin: 0 auto;
     }
@@ -201,18 +197,15 @@ nav ul li p.ct-nav{
     transition: 0.4s;
 }
 
-/* Rotate first bar */
 .ct-nav .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
     transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
-/* Fade out the second bar */
 .ct-nav .change .bar2 {
     opacity: 0;
 }
 
-/* Rotate last bar */
 .ct-nav .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
