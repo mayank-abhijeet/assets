@@ -120,6 +120,7 @@ function mobileViewControl() {
         ham.classList.add("show");
         heading_mobile.classList.remove("hide");
         heading.classList.remove("show");
+        content.classList.remove("padding-for-content");
         for (i = 0; i < list.length; i++) {
             list[i].classList.add("hide");
         }
