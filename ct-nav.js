@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
 function scroll_function(){
+    var content=document.querySelector(".content");
     if(navigation.classList.contains("sticky")){
         content.classList.add("padding-for-content");
     }
