@@ -3,6 +3,7 @@ window.onscroll = function () {
 };
 window.onresize = function () {
     mobileViewControl()
+    makeitstick();
 };
 
 var navigation = document.getElementById("navigation");
@@ -20,12 +21,18 @@ var hamSticky = ham.offsetTop;
 home.addEventListener("mouseenter",function(event){
     for_you_overlay.classList.remove("hidden");  
 });
-home.addEventListener("mouseleave",function(event){
-for_you_overlay.classList.add("hidden");  
+
+for_you_overlay.addEventListener("mouseenter",function(event){
+    for_you_overlay.classList.remove("hidden");  
 });
+for_you_overlay.addEventListener("mouseleave",function(event){
+    for_you_overlay.classList.add("hidden");  
+});
+
 home.addEventListener("click",function(){
 for_you_overlay.classList.toggle("hidden");
 });
+
 
 
 document.addEventListener("DOMContentLoaded", function (event) {
