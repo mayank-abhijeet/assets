@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 function makeitstick() {
 
-    if (window.pageYOffset >= sticky) {
+    if (window.pageYOffset-5 >= sticky) {
         navigation.classList.add("sticky");
         ham.classList.add("sticky");
         ham.classList.remove("hideHam");
