@@ -138,6 +138,19 @@ li a img.ct-nav{
     vertical-align: -webkit-baseline-middle;
     font-size: 12px;
 }
+#for_you_overlay.ct-nav{
+    z-index: 1;
+
+}
+.ct-nav.advertisement-scroll{
+    background-color: grey !important;
+    margin-top: 70px;
+    position: fixed;
+}
+.ct-nav.advertisement{
+    background-color: grey !important;
+    position: fixed;
+}
 nav ul li p.ct-nav{
   margin-right: 10px;
 }
