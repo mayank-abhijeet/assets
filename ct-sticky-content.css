@@ -1,0 +1,38 @@
+.ct-sticky-content-wrapper.ct-sticky-content {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    margin: 10px;
+    padding: 15px 10px 15px 40px;    
+    background-color: steelblue;
+    color: white;
+    width: 200px;
+    
+}
+
+ul.ct-sticky-content-wrapper.ct-sticky-content li{
+    font-size: 14px;
+    line-height: 20px;
+    list-style: none;
+}
+ul.ct-sticky-content-wrapper.ct-sticky-content li a{
+    color: white;
+    cursor: pointer;
+}
+
+ul.ct-sticky-content-wrapper.ct-sticky-content li img{
+    width: 10px;
+    padding: 0 5px 0 0;
+}
+
+.ct-sticky-content-wrapper.hidden{
+    display: none;
+}
+
+p{
+    margin-left: 300px;
+}
+
+.red{
+    color: red !important;
+}
