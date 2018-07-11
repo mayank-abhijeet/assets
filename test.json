@@ -1,6 +1,4 @@
 {
-
-{
 "name": "Apple",
 "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
 "price": 35
@@ -20,6 +18,4 @@
 "name": "Pineapple",
 "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg",
 "price": 200
-}
-
 }
