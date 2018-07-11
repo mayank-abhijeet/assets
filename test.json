@@ -1,8 +1,4 @@
 {
-  {"name" : "mayank"},
-  {"name" : "Abhijeet"},
-  {"name" : "ram"},
-  {"name" : "sita"},
-  {"name" : "hanuman"},
-
+  "name" : "mayank",
+  "city" : "bangalore",
 }
