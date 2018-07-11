@@ -1,9 +1,4 @@
-{{
-  "name" : "tejas"
-},
 {
-  "name" : "mayank"
-},
-{
-  "name" : "bhavana"
-}}
+  "name" : "tejas",
+  "sub" : "computer  science",
+}
