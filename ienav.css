@@ -1,25 +1,3 @@
-@keyframes slideinA {
-  from {
-    transform: translateY(-10%);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-}
-
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  content: " ";
-}
-
-.clearfix:after {
-  clear: both;
-}
-
 body.no-scroll {
   overflow: hidden;
   pointer-events: none;
@@ -51,16 +29,6 @@ body.no-scroll {
   display: none;
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
-  .header-navbar .hamburger-icon {
-    display: block !important;
-    float: right;
-    height: 60px;
-    padding: 10px 5px;
-    line-height: 35px;
-  }
-}
-
 .header-navbar .navbar-left {
   float: left;
 }
@@ -69,14 +37,6 @@ body.no-scroll {
   float: right;
   margin-right: 0;
 }
-
-@media screen and (min-width: 768px) {
-
-  .header-navbar .main-nav-list,
-  .header-navbar .header-navbar-actions,
-  .header-navbar .header-navbar-nav {
-    display: inline-block;
-  }
 
   .header-navbar .hamburger-icon {
     display: none;
