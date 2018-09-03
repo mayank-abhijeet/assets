@@ -10,7 +10,6 @@ body.no-scroll {
 }
 
 .header-navbar {
-  display: block;
   width: 100%;
   position: relative;
   background: #FFFFFF;
@@ -23,11 +22,6 @@ body.no-scroll {
   z-index: 3002;
 }
 
-.header-navbar .header-navbar-nav,
-.header-navbar .main-nav-list,
-.header-navbar .header-navbar-actions {
-  display: none;
-}
 
 .header-navbar .navbar-left {
   float: left;
@@ -38,9 +32,6 @@ body.no-scroll {
   margin-right: 0;
 }
 
-  .header-navbar .hamburger-icon {
-    display: none;
-  }
 }
 
 .header-navbar,
@@ -52,7 +43,6 @@ body.no-scroll {
 .header-navbar .badge {
   position: relative;
   border-radius: 2px;
-  display: inline-block;
   min-width: 10px;
   padding: 3px 6px;
   text-transform: uppercase;
@@ -79,7 +69,6 @@ body.no-scroll {
 .header-navbar .logo-container {
   padding: 15px 0;
   line-height: 22px;
-  display: inline-block;
 }
 
 .header-navbar a.btn,
@@ -162,7 +151,6 @@ body.no-scroll {
 
 .header-navbar .main-nav-list-item,
 .header-navbar .action-list-item {
-  display: inline-block;
   vertical-align: middle;
   position: relative;
 }
@@ -210,7 +198,6 @@ body.no-scroll {
 }
 
 .header-navbar .overlay {
-  display: none;
   position: absolute;
   top: 1px;
   background: #FFFFFF;
@@ -226,9 +213,6 @@ body.no-scroll {
   overflow-y: hidden;
 }
 
-.header-navbar .overlay.active {
-  display: block;
-}
 
 .header-navbar .overlay-section {
   float: left;
@@ -311,7 +295,6 @@ body.no-scroll {
   border-width: 5px;
   margin-right: 5px;
   border-style: solid;
-  display: inline-block;
   margin-left: -15px;
   border-color: transparent transparent transparent #d8d8d8;
 }
@@ -421,7 +404,6 @@ body.no-scroll {
 .mobile-navigation-container .mobile-subnav-list {
   padding: 5px 0 5px 15px;
   list-style: none;
-  display: none;
   transition: all 0.3s ease-out;
 }
 
@@ -430,7 +412,6 @@ body.no-scroll {
 }
 
 .mobile-navigation-container .mobile-subnav-list.active {
-  display: block;
   animation: slideinA;
   animation-duration: 0.3s;
 }
